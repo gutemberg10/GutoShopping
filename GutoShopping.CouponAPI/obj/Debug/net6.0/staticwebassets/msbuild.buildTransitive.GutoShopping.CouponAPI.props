@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GutoShopping.CouponAPI.props" />
+</Project>

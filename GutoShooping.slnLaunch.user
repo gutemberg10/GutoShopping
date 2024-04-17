@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "GutoShooping.Web\\GutoShooping.Web.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "GutoShooping.ProductAPI\\GutoShooping.ProductAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
+      }
+    ]
+  }
+]
