@@ -256,7 +256,6 @@ C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\ref
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Text.Encoding.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
-C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Threading.Channels.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Threading.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
@@ -417,3 +416,6 @@ C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\obj\Debug\net6.0\ref
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\obj\Debug\net6.0\GutoShopping.Web.pdb
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\obj\Debug\net6.0\GutoShopping.Web.genruntimeconfig.cache
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\obj\Debug\net6.0\ref\GutoShopping.Web.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\obj\Debug\net6.0\GutoShopping.Web.sourcelink.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.Web\bin\Debug\net6.0\System.Threading.Channels.dll

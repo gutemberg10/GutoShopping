@@ -34,11 +34,11 @@ namespace GutoShopping.CouponAPI.Migrations
                         .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)")
-                        .HasColumnName("coupon_Code");
+                        .HasColumnName("coupon_code");
 
                     b.Property<decimal>("DiscountAmount")
                         .HasColumnType("decimal(18,2)")
-                        .HasColumnName("discount_Amount");
+                        .HasColumnName("discount_amount");
 
                     b.HasKey("Id");
 

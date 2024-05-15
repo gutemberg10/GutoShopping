@@ -1,0 +1,13 @@
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\bin\Debug\net6.0\GutoShopping.MessageBus.deps.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\bin\Debug\net6.0\GutoShopping.MessageBus.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\bin\Debug\net6.0\GutoShopping.MessageBus.pdb
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.csproj.AssemblyReference.cache
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.AssemblyInfoInputs.cache
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.AssemblyInfo.cs
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.sourcelink.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\refint\GutoShopping.MessageBus.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\GutoShopping.MessageBus.pdb
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.MessageBus\obj\Debug\net6.0\ref\GutoShopping.MessageBus.dll

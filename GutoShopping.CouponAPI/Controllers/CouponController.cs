@@ -17,7 +17,7 @@ namespace GutoShopping.CouponAPI.Controllers
                 ArgumentNullException(nameof(repository));
         }
 
-        [HttpGet("{couponCode}")]
+        [HttpGet("{CouponCode}")]
         [Authorize]
         public async Task<ActionResult<CouponVO>> GetCouponByCouponCode(string couponCode)
         {

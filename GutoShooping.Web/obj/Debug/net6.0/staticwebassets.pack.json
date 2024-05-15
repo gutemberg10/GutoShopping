@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\geek_shopping.jpg"
     },
     {
+      "Id": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\wwwroot\\images\\order.png",
+      "PackagePath": "staticwebassets\\images\\order.png"
+    },
+    {
       "Id": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

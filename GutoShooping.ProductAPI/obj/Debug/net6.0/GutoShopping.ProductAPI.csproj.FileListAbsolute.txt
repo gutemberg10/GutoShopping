@@ -89,3 +89,6 @@ C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\obj\Debug\net
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\obj\Debug\net6.0\GutoShopping.ProductAPI.pdb
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\obj\Debug\net6.0\GutoShopping.ProductAPI.genruntimeconfig.cache
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\obj\Debug\net6.0\ref\GutoShopping.ProductAPI.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\obj\Debug\net6.0\GutoShopping.ProductAPI.sourcelink.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.ProductAPI\bin\Debug\net6.0\System.Threading.Channels.dll

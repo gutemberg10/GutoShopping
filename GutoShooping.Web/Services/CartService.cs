@@ -22,40 +22,40 @@ namespace GutoShopping.Web.Services
             return await response.ReadContentAs<CartViewModel>();
         }
 
-        public async Task<CartViewModel> AddItemToCart(CartViewModel cart, string token)
+        public async Task<CartViewModel> AddItemToCart(CartViewModel model, string token)
         {
-                try
-                {
-                    // Configurar o cabeçalho de autorização
-                    _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            //try
+            //{
+            //    // Configurar o cabeçalho de autorização
+            //    _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-                    // Enviar o objeto cart para a API
-                    var response = await _client.PostAsJson($"{BasePath}/add-cart", cart);
+            //    // Enviar o objeto cart para a API
+            //    var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
 
-                    // Verificar se a requisição foi bem sucedida
-                    if (response.IsSuccessStatusCode)
-                    {
-                        // Ler e retornar o conteúdo da resposta
-                        return await response.ReadContentAs<CartViewModel>();
-                    }
-                    else
-                    {
-                        // Lançar uma exceção se a requisição falhar
-                        var errorContent = await response.Content.ReadAsStringAsync();
-                        throw new Exception($"Failed to add item to cart. Status code: {response.StatusCode}, Error: {errorContent}");
-                    }
-                }
-                catch (Exception ex)
-                {
-                    // Capturar e relançar qualquer exceção ocorrida durante a chamada da API
-                    throw new Exception("An error occurred when calling the API", ex);
-                }
+            //    // Verificar se a requisição foi bem sucedida
+            //    if (response.IsSuccessStatusCode)
+            //    {
+            //        // Ler e retornar o conteúdo da resposta
+            //        return await response.ReadContentAs<CartViewModel>();
+            //    }
+            //    else
+            //    {
+            //        // Lançar uma exceção se a requisição falhar
+            //        var errorContent = await response.Content.ReadAsStringAsync();
+            //        throw new Exception($"Failed to add item to cart. Status code: {response.StatusCode}, Error: {errorContent}");
+            //    }
+            //}
+            //catch (Exception ex)
+            //{
+            //    // Capturar e relançar qualquer exceção ocorrida durante a chamada da API
+            //    throw new Exception("An error occurred when calling the API", ex);
+            //}
 
-            //_client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            //var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
-            //if (response.IsSuccessStatusCode)
-            //    return await response.ReadContentAs<CartViewModel>();
-            //else throw new Exception("Something went wrong when calling API");
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/add-cart", model);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<CartViewModel>();
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<CartViewModel> UpdateCart(CartViewModel model, string token)
@@ -76,25 +76,43 @@ namespace GutoShopping.Web.Services
             else throw new Exception("Something went wrong when calling API");
         }
 
-        public async Task<bool> ApplyCoupon(CartViewModel cart, string couponCode, string token)
+        public async Task<bool> ApplyCoupon(CartViewModel model, string token)
         {
-            throw new NotImplementedException();
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/apply-coupon", model);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<bool>();
+            else throw new Exception("Something went wrong when calling API");
         }
 
-        public async Task<CartViewModel> Checkout(CartHeaderViewModel cartHeader, string token)
+        public async Task<bool> RemoveCoupon(string userId, string token)
         {
-            throw new NotImplementedException();
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.DeleteAsync($"{BasePath}/remove-coupon/{userId}");
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<bool>();
+            else throw new Exception("Something went wrong when calling API");
+        }
+
+        public async Task<object> Checkout(CartHeaderViewModel model, string token)
+        {
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await _client.PostAsJson($"{BasePath}/checkout", model);
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.ReadContentAs<CartHeaderViewModel>();
+            } else if (response.StatusCode.ToString().Equals("PreconditionFailed"))
+            {
+                return "Coupon Price has changed, please confirm!";
+            }
+                
+            else throw new Exception("Something went wrong when calling API");
         }
 
         public async Task<bool> ClearCart(string userId, string token)
         {
             throw new NotImplementedException();
-        }
-
-        public async Task<bool> RemoveCoupon(string userId, string token)
-        {
-            throw new NotImplementedException();
-        }
+        }       
 
     }
 }

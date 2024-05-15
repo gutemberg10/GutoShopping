@@ -267,7 +267,6 @@ C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Text.Encoding.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
-C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Threading.Channels.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Threading.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
@@ -405,3 +404,6 @@ C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\obj\Debug
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\obj\Debug\net6.0\GutoShopping.IdentityServer.pdb
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\obj\Debug\net6.0\GutoShopping.IdentityServer.genruntimeconfig.cache
 C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\obj\Debug\net6.0\ref\GutoShopping.IdentityServer.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\obj\Debug\net6.0\GutoShopping.IdentityServer.sourcelink.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShooping.IdentityServer\bin\Debug\net6.0\System.Threading.Channels.dll

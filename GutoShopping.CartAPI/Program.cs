@@ -1,6 +1,7 @@
 using AutoMapper;
 using GutoShopping.CartAPI.Config;
 using GutoShopping.CartAPI.Model.Context;
+using GutoShopping.CartAPI.RabbitMQSender;
 using GutoShopping.CartAPI.Repository;
 //using GutoShopping.ProductAPI.Config;
 //using GutoShopping.ProductAPI.Model.Context;
@@ -18,11 +19,15 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<ICouponRepository, CouponRepository>();
+
+builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 
+builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(c => c.BaseAddress = new Uri("ServiceUrls:CouponAPI"));
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {

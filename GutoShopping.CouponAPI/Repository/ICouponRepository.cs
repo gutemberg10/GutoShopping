@@ -4,6 +4,6 @@ namespace GutoShopping.CouponAPI.Repository
 {
     public interface ICouponRepository
     {
-        Task<CouponVO> GetCouponByCouponCode(string couponCode);
+        Task<CouponVO> GetCouponByCouponCode(string CouponCode);
     }
 }

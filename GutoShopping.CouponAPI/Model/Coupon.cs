@@ -7,13 +7,13 @@ namespace GutoShopping.CouponAPI.Model
     [Table("coupon")]
     public class Coupon : BaseEntity
     {
-        [Column("coupon_Code")]
+        [Column("coupon_code")]
         [Required]
         [StringLength(30)]
         public string CouponCode { get; set; }
 
-        [Column("discount_Amount")]
+        [Column("discount_amount")]
         [Required]
-        public decimal DiscountAmount { get; set; }
+        public decimal DiscountAmount { get; set; } 
     }
 }

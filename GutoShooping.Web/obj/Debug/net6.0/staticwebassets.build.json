@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vw7kyqY2GeLidy7U/6/eli0GeXxcg74Izpuf328haAg=",
+  "Hash": "B1+G4h5uHwVdQkiyETd6kXSWc8rdhQl1y9bfXu0DpeA=",
   "Source": "GutoShopping.Web",
   "BasePath": "_content/GutoShopping.Web",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\geek_shopping.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\wwwroot\\images\\order.png",
+      "SourceId": "GutoShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\wwwroot\\",
+      "BasePath": "_content/GutoShopping.Web",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\wwwroot\\js\\site.js",
