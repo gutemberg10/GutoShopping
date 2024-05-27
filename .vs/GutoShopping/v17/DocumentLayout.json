@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72AF46AF-EF0D-4C40-B3CA-96CF42072B1B}|GutoShopping.CouponAPI\\GutoShopping.CouponAPI.csproj|c:\\users\\redseek\\source\\repos\\gutoshooping\\gutoshopping.couponapi\\model\\context\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72AF46AF-EF0D-4C40-B3CA-96CF42072B1B}|GutoShopping.CouponAPI\\GutoShopping.CouponAPI.csproj|solutionrelative:gutoshopping.couponapi\\model\\context\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD2740B4-6384-44B7-8923-1B8F66AFA5CC}|GutoShopping.APIGateway\\GutoShopping.APIGateway.csproj|c:\\users\\redseek\\source\\repos\\gutoshooping\\gutoshopping.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD2740B4-6384-44B7-8923-1B8F66AFA5CC}|GutoShopping.APIGateway\\GutoShopping.APIGateway.csproj|solutionrelative:gutoshopping.apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99EA5D71-0115-49E1-830C-51A736495846}|GutoShooping.Web\\GutoShopping.Web.csproj|c:\\users\\redseek\\source\\repos\\gutoshooping\\gutoshooping.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99EA5D71-0115-49E1-830C-51A736495846}|GutoShooping.Web\\GutoShopping.Web.csproj|solutionrelative:gutoshooping.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99EA5D71-0115-49E1-830C-51A736495846}|GutoShooping.Web\\GutoShopping.Web.csproj|c:\\users\\redseek\\source\\repos\\gutoshooping\\gutoshooping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{99EA5D71-0115-49E1-830C-51A736495846}|GutoShooping.Web\\GutoShopping.Web.csproj|solutionrelative:gutoshooping.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4DB89BA1-BEBC-4008-A00F-1FD58A96755E}|GutoShopping.CartAPI\\GutoShopping.CartAPI.csproj|c:\\users\\redseek\\source\\repos\\gutoshooping\\gutoshopping.cartapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB89BA1-BEBC-4008-A00F-1FD58A96755E}|GutoShopping.CartAPI\\GutoShopping.CartAPI.csproj|solutionrelative:gutoshopping.cartapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 75,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductContext.cs",
-              "DocumentMoniker": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.CouponAPI\\Model\\Context\\ProductContext.cs",
-              "RelativeDocumentMoniker": "GutoShopping.CouponAPI\\Model\\Context\\ProductContext.cs",
-              "ToolTip": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.CouponAPI\\Model\\Context\\ProductContext.cs",
-              "RelativeToolTip": "GutoShopping.CouponAPI\\Model\\Context\\ProductContext.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBQAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:21:09.49Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.APIGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "GutoShopping.APIGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.APIGateway\\appsettings.json*",
+              "RelativeToolTip": "GutoShopping.APIGateway\\appsettings.json*",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAcwNAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T13:29:31.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\Program.cs",
-              "RelativeDocumentMoniker": "GutoShooping.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\Program.cs",
-              "RelativeToolTip": "GutoShooping.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.CartAPI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "GutoShopping.CartAPI\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.CartAPI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "GutoShopping.CartAPI\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T03:13:44.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "GutoShooping.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShooping.Web\\appsettings.json",
-              "RelativeToolTip": "GutoShooping.Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-17T03:10:16.296Z",
+              "WhenOpened": "2024-05-27T18:09:59.636Z",
               "EditorCaption": ""
             }
           ]
