@@ -3,6 +3,7 @@
 //using GutoShopping.ProductAPI.Repository;
 using GutoShopping.OrderAPI.MessageConsumer;
 using GutoShopping.OrderAPI.Model.Context;
+using GutoShopping.OrderAPI.RabbitMQSender;
 using GutoShopping.OrderAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -16,7 +17,8 @@ var dbContextBuilder = new DbContextOptionsBuilder<ProductContext>();
 builder.Services.AddSingleton(new OrderRepository(dbContextBuilder.Options));
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 //builder.Services.AddHostedService<RabbitMQCheckoutConsumer>();
-
+//builder.Services.AddHostedService<RabbitMQPaymentConsumer>();
+builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 // Add services to the container.
 
 builder.Services.AddControllers();

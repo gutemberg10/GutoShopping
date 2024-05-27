@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UKAyJAqzMncZZYzkckMZeYJMCe5h1YcEh/yw0ehTDDv7gPgD8FxqVQp72LathNU0lZwPV/H7KQfojqphVoRLfA==",
+  "dgSpecHash": "Z9vBO6283tE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Redseek\\Source\\Repos\\GutoShooping\\GutoShopping.OrderAPI\\GutoShopping.OrderAPI.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,6 @@
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
-    "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Redseek\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
