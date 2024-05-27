@@ -1,0 +1,12 @@
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\bin\Debug\net6.0\GutoShopping.PaymentProcessor.deps.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\bin\Debug\net6.0\GutoShopping.PaymentProcessor.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\bin\Debug\net6.0\GutoShopping.PaymentProcessor.pdb
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.AssemblyInfoInputs.cache
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.AssemblyInfo.cs
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.csproj.CoreCompileInputs.cache
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.sourcelink.json
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\refint\GutoShopping.PaymentProcessor.dll
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\GutoShopping.PaymentProcessor.pdb
+C:\Users\Redseek\Source\Repos\GutoShooping\GutoShopping.PaymentProcessor\obj\Debug\net6.0\ref\GutoShopping.PaymentProcessor.dll
